@@ -1,0 +1,65 @@
+.help_container {
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    background: rgb(246,250,253);
+    background: linear-gradient(166deg, rgba(246,250,253,1) 0%, rgba(246,250,253,1) 49%, rgba(185,209,233,1) 100%);
+    overflow-y: auto;
+  }
+  
+
+h3 {
+    color: #5F96CC;
+    font-size: 12pt;
+    margin-bottom: -1pt;
+}
+
+.h1_help {
+    font-size: 35pt;
+    margin-top: 0pt;
+    margin-bottom: 15pt;
+}
+
+.h2_help {
+    font-size: 17pt;
+}
+
+.h3_help {
+    font-size: 13pt;
+    color: #043b72;
+}
+
+p {
+    color: #0455A4;
+    font-size: 10pt;
+    margin-bottom: 27pt;
+}
+
+.help_text_container {
+    height: 20vh;
+    width: 40vw;
+    margin-left: 80pt;
+    margin-top: 15vh;
+}
+
+.home_button {
+    padding: 7pt 32pt;
+    background-color: #0455A4; 
+    color: #fff; 
+    border: none; 
+    border-radius: 20px;
+    cursor: pointer; 
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.home_button:hover {
+    background-color: #043A6E; /* Change background color on hover */
+}
+
+.changeVisImg{
+    height: 300px;
+}

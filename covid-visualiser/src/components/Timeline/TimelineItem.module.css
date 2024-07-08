@@ -1,0 +1,66 @@
+.timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.timeline-item-content span {
+    font-size: 0.8em;
+    color: #888;
+}
+
+.yearText {
+    font-size: 0pt;
+    color: #0455A4;
+    font-weight: 500;
+    opacity: 0;
+    margin: 0;
+    margin-top: 16px;
+}
+
+.yearText.show {
+    font-size: 10pt;
+    color: #0455A4;
+    font-weight: 500;
+    opacity: 100;
+    margin: 0px;
+}
+
+.verticalLine {
+    width: 2px;
+    height: 10px;
+    border-radius: 2px;
+    background-color: #5F96CC;
+    margin: 0 auto;
+}
+
+.verticalLine.year {
+    width: 2px;
+    height: 10px;
+    border-radius: 2px;
+    background-color: #043A6E;
+}
+
+.horizontalLine {
+    width: 27px;
+    height: 2px;
+    background-color: #0455A4;
+    margin-bottom: -1px;
+}
+
+.horizontalLine.year {
+    width: 34px;
+    height: 2px;
+    background-color: #0455A4;
+    margin-bottom: -1px;
+}
+
+.arrow {
+    opacity: 0;
+}
+
+.arrow.clicked {
+    opacity: 100%;
+    color: #043A6E;
+    margin-bottom: 0px;
+}

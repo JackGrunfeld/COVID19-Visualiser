@@ -1,0 +1,11 @@
+.search-result {
+    padding: 5px 0px;
+    font-family: 'Segoe UI', sans-serif;
+    color: black;
+    font-size: 13px;
+}
+
+.search-result:hover{
+    background-color: #efefef;
+    font-weight: bold;
+}

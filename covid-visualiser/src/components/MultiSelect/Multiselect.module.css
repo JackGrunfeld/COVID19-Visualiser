@@ -1,0 +1,10 @@
+.container {
+    margin-bottom: 2px;
+    padding-top: 2.2px;
+    padding-bottom: 0px;
+    background-color: #fff;
+    border-radius: 15px;
+    border-color: transparent;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    max-height: 200px;
+}

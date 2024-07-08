@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: none;
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 5px;
+}
+
+.dataBox p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.title {
+    padding: 10px 0 10px 0;
+    font-weight: 1rem;
+    margin-left: 25px;
+}
+
+.title span {
+    font-size: 1rem;
+}
+
+.hovered p {
+    color: #0455A4;
+}
+
+.selected p {
+    color: #FF5733;
+}
+
+.dataBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.comparison {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.legend {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 0.2rem;
+    background: white;
+    width: 370px;
+    align-items: flex-start;
+}
+
+.legendItem {
+    display: flex;
+    align-items: center;
+}
+
+.legendColor {
+    width: 12px;
+    height: 12px;
+}
+
+.legendText {
+    font-size: 0.7rem;
+    width: fit-content;
+}

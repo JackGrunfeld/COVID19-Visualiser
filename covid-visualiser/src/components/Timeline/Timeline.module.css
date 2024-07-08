@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0px;
+    z-index: 9999;
+    padding-bottom: 15px;
+}
+
+.timeline-container {
+    display: flex;
+    justify-content: center;
+}
+
+.timeline-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0px 15px;
+}
+
+.timeline {
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: -8px;
+}
