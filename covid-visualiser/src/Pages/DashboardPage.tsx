@@ -1,15 +1,15 @@
 import React, { useContext, useEffect, useMemo, useState } from "react";
 import styles from "./DashboardPage.module.css";
-import AreaChartBox from "../Components/AreaChartBox/AreaChartBox";
-import ChartBox from "../Components/ChartBox/ChartBox";
-import BarChartBox from "../Components/BarChartBox/BarChartBox";
+import AreaChartBox from "../components/AreaChartBox/AreaChartBox";
+import ChartBox from "../components/ChartBox/ChartBox";
+import BarChartBox from "../components/BarChartBox/BarChartBox";
 import { CovidContext } from "../Context/CovidContext";
 import { visualisationsKey } from "./Constants";
-import MultiSelect from "../Components/MultiSelect/Multiselect";
-import Legend from "../Components/Legend/Legend";
-import { ChartProps } from "../Components/Modal/GraphModal";
-import GraphModal from "../Components/Modal/GraphModal";
-import ChartDropdown from "../Components/ChartDropdown/ChartDropdown";
+import MultiSelect from "../components/MultiSelect/Multiselect";
+import Legend from "../components/Legend/Legend";
+import { ChartProps } from "../components/Modal/GraphModal";
+import GraphModal from "../components/Modal/GraphModal";
+import ChartDropdown from "../components/ChartDropdown/ChartDropdown";
 import randomColor from "randomcolor";
 
 type ChartType = 'Chart' | 'AreaChart' | 'BarChart';

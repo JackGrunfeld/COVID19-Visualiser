@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 import WorldMap from './WorldMap';
-import DataBox from '../Components/DataBox/DataBox';
-import {SearchBar}  from '../Components/Search/SearchBar';
-import {SearchResultsList} from '../Components/Search/SearchResultsList'
+import DataBox from '../components/DataBox/DataBox';
+import {SearchBar}  from '../components/Search/SearchBar';
+import {SearchResultsList} from '../components/Search/SearchResultsList'
 import "./Visualisation.css";
-import Key from '../Components/Key/Key';
-import Dropdown from '../Components/Dropdown/Dropdown';
-import DimSwitchStyles from '../Components/DimSwitch/DimSwitch.module.css';
+import Key from '../components/Key/Key';
+import Dropdown from '../components/Dropdown/Dropdown';
+import DimSwitchStyles from '../components/DimSwitch/DimSwitch.module.css';
 
 
 const Visualisation = () => {

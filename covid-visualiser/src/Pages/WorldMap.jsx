@@ -5,7 +5,7 @@ import { CovidContext } from "../Context/CovidContext";
 import { throttle } from 'lodash';
 import { geoDistance } from 'd3-geo';
 import Papa from 'papaparse';
-import Timeline from "../Components/Timeline/Timeline";
+import Timeline from "../components/Timeline/Timeline";
 import timelineItems from "./Constants";
 import { visualisationsKey } from "./Constants";
 import { resolveTypeReferenceDirective } from "typescript";

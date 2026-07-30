@@ -4,7 +4,7 @@ import WorldMap from "./Pages/WorldMap";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./Pages/NavBar";
 import { CovidContext } from "./Context/CovidContext";
-import LoadingPage from "./Components/LoadingPage";
+import LoadingPage from "./components/LoadingPage";
 
 
 const AboutUs = React.lazy(() => import("./Pages/AboutUs"));
